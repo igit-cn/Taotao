@@ -11,12 +11,14 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>taotao-manager</artifactId>
+    <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <modules>
         <module>../Taotao-manager-pojo</module>
         <module>../Taotao-manager-mapper</module>
         <module>../Taotao-manager-service</module>
+        <module>../Taotao-manager-web</module>
     </modules>
 
     <dependencies>

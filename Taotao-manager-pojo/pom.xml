@@ -9,6 +9,6 @@
         <relativePath>../Taotao-manager/pom.xml</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-
+    <packaging>jar</packaging>
     <artifactId>taotao-manager-pojo</artifactId>
 </project>

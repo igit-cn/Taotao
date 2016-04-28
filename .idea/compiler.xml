@@ -45,6 +45,12 @@
         <processorPath useClasspath="true" />
         <module name="Taotao-manager-service" />
       </profile>
+      <profile default="false" name="Annotation profile for Taotao-manager-web" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Taotao-commons" target="1.5" />
@@ -52,6 +58,7 @@
       <module name="Taotao-manager-mapper" target="1.7" />
       <module name="Taotao-manager-pojo" target="1.7" />
       <module name="Taotao-manager-service" target="1.7" />
+      <module name="Taotao-manager-web" target="1.7" />
       <module name="Taotao-parent" target="1.7" />
     </bytecodeTargetLevel>
   </component>
